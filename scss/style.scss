@@ -1,0 +1,60 @@
+body{
+    background-color: #909090;
+    .container{
+        margin: 100px 100px 100px 100px;
+        width: 100%;
+        .box{
+            width: 100px;
+            height: 60px;
+            float: left;
+        }
+        .translate{
+            transform: translate(0,0);
+            background-color: blue;            
+            &:hover{
+                transform: translate(30px,30px);
+                transition: all 2s ease-in-out;
+            }
+            &:active{
+                transform: translate(-30px,-30px);
+                transition: all 2s ease-in-out;
+            }
+        }
+        .scale{
+            transform: scale(1,1);
+            background-color: red;
+            &:hover{
+                transform: scale(0.5,0.5);
+                transition: all 2s ease-in-out;
+            }
+            &:active{
+                transform: scale(3,3);
+                transition: all 2s ease-in-out;
+            }
+        }
+        .skew{
+            transform: skew(0,0);
+            background-color: green;
+            &:hover{
+                transform: skew(-10deg,-7deg);
+                transition: all 2s ease-in-out;
+            }
+            &:active{
+                transform: skew(10deg,7deg);                
+                transition: all 2s ease-in-out;
+            }
+        }
+        .rotate{
+            transform: rotate(0);
+            background-color: yellow;
+            &:hover{
+                transform: rotate(-180deg);
+                transition: all 2s ease-in-out;
+            }
+            &:active{
+                transform: rotate(180deg);                
+                transition: all 2s ease-in-out;
+            }
+        }
+    }
+}
