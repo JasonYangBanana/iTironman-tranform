@@ -112,7 +112,6 @@ body {
     body .container .rotateY {
       -webkit-transform: rotateY(0);
       transform: rotateY(0);
-      background-image: url(img/kfc-logo.svg);
       background-color: green;
       -webkit-transition: all 2s ease-in-out;
       -o-transition: all 2s ease-in-out;
@@ -123,7 +122,6 @@ body {
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
         transition: all 2s ease-in-out;
-        background-image: url(img/mcdonald-logo.svg);
         background-color: red; }
     body .container .rotateZ {
       -webkit-transform: rotateZ(0);
