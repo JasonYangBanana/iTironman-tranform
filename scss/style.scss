@@ -53,6 +53,16 @@ body{
                 background-color: aqua;
             }
         }
+        .rotate{
+            transform: rotate(0);
+            background-color: green;
+            transition: all 2s ease-in-out;
+            &:hover{
+                transform: rotate(-180deg);
+                transition: all 2s ease-in-out;
+                background-color: red;
+            }
+        }
         .rotateX{
             transform: rotateX(0);
             background-color: green;
@@ -65,11 +75,13 @@ body{
         }
         .rotateY{
             transform: rotateY(0);
+            background-image: url(img/kfc-logo.svg);
             background-color: green;
             transition: all 2s ease-in-out;
             &:hover{
                 transform: rotateY(-180deg);
                 transition: all 2s ease-in-out;
+                background-image: url(img/mcdonald-logo.svg);
                 background-color: red;
             }
         }

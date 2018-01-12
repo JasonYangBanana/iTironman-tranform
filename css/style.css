@@ -79,6 +79,22 @@ body {
         -o-transition: all 2s ease-in-out;
         transition: all 2s ease-in-out;
         background-color: aqua; }
+    body .container .rotate {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      transform: rotate(0);
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
+      body .container .rotate:hover {
+        -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        -webkit-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+        background-color: red; }
     body .container .rotateX {
       -webkit-transform: rotateX(0);
       transform: rotateX(0);
@@ -96,6 +112,7 @@ body {
     body .container .rotateY {
       -webkit-transform: rotateY(0);
       transform: rotateY(0);
+      background-image: url(img/kfc-logo.svg);
       background-color: green;
       -webkit-transition: all 2s ease-in-out;
       -o-transition: all 2s ease-in-out;
@@ -106,6 +123,7 @@ body {
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
         transition: all 2s ease-in-out;
+        background-image: url(img/mcdonald-logo.svg);
         background-color: red; }
     body .container .rotateZ {
       -webkit-transform: rotateZ(0);
