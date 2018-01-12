@@ -11,75 +11,115 @@ body {
       -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
       transform: translate(0, 0);
-      background-color: blue; }
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
       body .container .translate:hover {
         -webkit-transform: translate(30px, 30px);
         -ms-transform: translate(30px, 30px);
         transform: translate(30px, 30px);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: red; }
       body .container .translate:active {
         -webkit-transform: translate(-30px, -30px);
         -ms-transform: translate(-30px, -30px);
         transform: translate(-30px, -30px);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: aqua; }
     body .container .scale {
       -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
       transform: scale(1, 1);
-      background-color: red; }
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
       body .container .scale:hover {
         -webkit-transform: scale(0.5, 0.5);
         -ms-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: red; }
       body .container .scale:active {
         -webkit-transform: scale(3, 3);
         -ms-transform: scale(3, 3);
         transform: scale(3, 3);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: aqua; }
     body .container .skew {
       -webkit-transform: skew(0, 0);
       -ms-transform: skew(0, 0);
       transform: skew(0, 0);
-      background-color: green; }
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
       body .container .skew:hover {
-        -webkit-transform: skew(-10deg, -7deg);
-        -ms-transform: skew(-10deg, -7deg);
-        transform: skew(-10deg, -7deg);
+        -webkit-transform: skew(-10deg, -45deg);
+        -ms-transform: skew(-10deg, -45deg);
+        transform: skew(-10deg, -45deg);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: red; }
       body .container .skew:active {
-        -webkit-transform: skew(10deg, 7deg);
-        -ms-transform: skew(10deg, 7deg);
-        transform: skew(10deg, 7deg);
+        -webkit-transform: skew(10deg, 45deg);
+        -ms-transform: skew(10deg, 45deg);
+        transform: skew(10deg, 45deg);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
-    body .container .rotate {
-      -webkit-transform: rotate(0);
+        transition: all 2s ease-in-out;
+        background-color: aqua; }
+    body .container .rotateX {
+      -webkit-transform: rotateX(0);
+      transform: rotateX(0);
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
+      body .container .rotateX:hover {
+        -webkit-transform: rotateX(-180deg);
+        transform: rotateX(-180deg);
+        -webkit-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+        background-color: red; }
+    body .container .rotateY {
+      -webkit-transform: rotateY(0);
+      transform: rotateY(0);
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
+      body .container .rotateY:hover {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        -webkit-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+        background-color: red; }
+    body .container .rotateZ {
+      -webkit-transform: rotateZ(0);
       -ms-transform: rotate(0);
-      transform: rotate(0);
-      background-color: yellow; }
-      body .container .rotate:hover {
-        -webkit-transform: rotate(-180deg);
+      transform: rotateZ(0);
+      background-color: green;
+      -webkit-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition: all 2s ease-in-out; }
+      body .container .rotateZ:hover {
+        -webkit-transform: rotateZ(-180deg);
         -ms-transform: rotate(-180deg);
-        transform: rotate(-180deg);
+        transform: rotateZ(-180deg);
         -webkit-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
-      body .container .rotate:active {
-        -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
-        -webkit-transition: all 2s ease-in-out;
-        -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out; }
+        transition: all 2s ease-in-out;
+        background-color: red; }
